@@ -14,6 +14,13 @@ StyleMirror is an application that creates a high-fidelity **Digital Twin** of t
 - **Product Ontology Mapping**: Instead of generating a generic "dress," StyleMirror maintains a strict ontology (database) of real products, ensuring the exact garment you see is what you are trying on.
 - **Parametric Draping (The Core Complexity)**: The defining feature of StyleMirror. Users can interact with the AI using plain language:
   - *"Make this blazer slightly tailored."*
+<!-- metadata: v7okepzh1g -->
+<!-- metadata: 5cag5b9ulp -->
+<!-- metadata: 6qp0l32ba9 -->
+<!-- metadata: ffp4zyy2t2 -->
+<!-- metadata: p9jr92ep2b -->
+<!-- metadata: s1f23m8u8c -->
+<!-- metadata: 16hc6nqbhp -->
   - *"Show me this dress, but as a mini-length."*
   - *"Tuck in the shirt."*
   
@@ -57,9 +64,6 @@ The application interface is built around three core pillars:
 
 3. Start the development server:
    ```bash
-   npm run dev
-   # or
-   pnpm dev
    ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result. You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
