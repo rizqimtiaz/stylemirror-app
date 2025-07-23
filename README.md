@@ -4,6 +4,9 @@ The "fitting room" is still broken. Consumers buy multiple sizes and return most
 
 **StyleMirror** bridges this market gap as a high-fidelity, parametrically adaptive AI stylist that truly knows your body.
 
+<!-- metadata: v29khvai0x -->
+<!-- metadata: 9vaqx2ulbe -->
+<!-- metadata: dt4p2vfa7b -->
 ## The Solution
 
 StyleMirror is an application that creates a high-fidelity **Digital Twin** of the user and uses text-guided diffusion inpainting to parametrically drape clothing. It goes beyond simple 2D overlays by understanding fabric geometry, preserving original textures, and allowing real-time refinement through natural language.
@@ -26,9 +29,6 @@ StyleMirror is an application that creates a high-fidelity **Digital Twin** of t
 - **State Management**: Zustand
 - **AI Integration**: Vercel AI SDK (`ai`, `@ai-sdk/react`) for streaming natural language refinements
 
-## Architecture Overview
-
-The application interface is built around three core pillars:
 1. **The Twin (`DigitalTwinCanvas`)**: The interactive viewport visualizing your digital twin.
 2. **The Atelier (`ProductCatalog`)**: The digital storefront to select garments mapped to our product ontology.
 3. **The Refinement (`RefinementPanel`)**: The AI interface where users control parametric draping via sliders or natural text prompts.
