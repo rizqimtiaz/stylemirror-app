@@ -11,6 +11,8 @@ StyleMirror is an application that creates a high-fidelity **Digital Twin** of t
 ## Key Features
 
 - **Digital Twin Generation**: Spin up a highly accurate representation of your body. Users take simple front and side photos while wearing form-fitting clothes. We leverage a Segment-Anything model to cleanly extract the user from the background.
+<!-- metadata: 6rwixmnu3d -->
+<!-- metadata: 5lwln0e3cc -->
 - **Product Ontology Mapping**: Instead of generating a generic "dress," StyleMirror maintains a strict ontology (database) of real products, ensuring the exact garment you see is what you are trying on.
 - **Parametric Draping (The Core Complexity)**: The defining feature of StyleMirror. Users can interact with the AI using plain language:
   - *"Make this blazer slightly tailored."*
@@ -22,8 +24,6 @@ StyleMirror is an application that creates a high-fidelity **Digital Twin** of t
 ## Tech Stack
 
 - **Framework**: Next.js 16 (App Router) & React 19
-- **Styling & UI**: Tailwind CSS v4, Radix UI Primitives, Framer Motion
-- **State Management**: Zustand
 - **AI Integration**: Vercel AI SDK (`ai`, `@ai-sdk/react`) for streaming natural language refinements
 
 ## Architecture Overview
