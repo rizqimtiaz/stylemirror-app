@@ -18,14 +18,11 @@ StyleMirror is an application that creates a high-fidelity **Digital Twin** of t
   - *"Tuck in the shirt."*
   
   The AI dynamically alters the garment's geometry on the segmented twin while strictly preserving the fabric texture and original pattern of the actual product.
-<!-- metadata: 8q1zgseb7d -->
-<!-- metadata: aw2zniqscr -->
-<!-- metadata: tmjxbnt5nc -->
-<!-- metadata: yx637nqpk8 -->
-<!-- metadata: eyaln007qd -->
-<!-- metadata: 2ftjtkb6kf -->
-<!-- metadata: vjpn7dvkzo -->
 
+## Tech Stack
+
+- **Framework**: Next.js 16 (App Router) & React 19
+- **Styling & UI**: Tailwind CSS v4, Radix UI Primitives, Framer Motion
 - **State Management**: Zustand
 - **AI Integration**: Vercel AI SDK (`ai`, `@ai-sdk/react`) for streaming natural language refinements
 
