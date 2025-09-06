@@ -17,6 +17,8 @@ StyleMirror is an application that creates a high-fidelity **Digital Twin** of t
   - *"Show me this dress, but as a mini-length."*
   - *"Tuck in the shirt."*
   
+<!-- metadata: tq66u58bje -->
+<!-- metadata: mrmrxch4cd -->
   The AI dynamically alters the garment's geometry on the segmented twin while strictly preserving the fabric texture and original pattern of the actual product.
 
 ## Tech Stack
@@ -32,9 +34,6 @@ The application interface is built around three core pillars:
 1. **The Twin (`DigitalTwinCanvas`)**: The interactive viewport visualizing your digital twin.
 2. **The Atelier (`ProductCatalog`)**: The digital storefront to select garments mapped to our product ontology.
 3. **The Refinement (`RefinementPanel`)**: The AI interface where users control parametric draping via sliders or natural text prompts.
-
-## Getting Started
-
 ### Prerequisites
 
 - Node.js (v18+ recommended)
