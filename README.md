@@ -42,9 +42,6 @@ The application interface is built around three core pillars:
 
 ### Installation
 
-1. Clone the repository and navigate to the project directory:
-   ```bash
-   git clone <repository-url>
    cd stylemirror
    ```
 
@@ -54,6 +51,7 @@ The application interface is built around three core pillars:
    # or
    pnpm install
    ```
+<!-- metadata: cy0d95ux4u -->
 
 3. Start the development server:
    ```bash
