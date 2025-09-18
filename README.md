@@ -35,13 +35,19 @@ The application interface is built around three core pillars:
 
 ## Getting Started
 
-### Prerequisites
-
 - Node.js (v18+ recommended)
 - `npm`, `yarn`, or `pnpm`
 
 ### Installation
 
+<!-- metadata: 5xoo5rx3ym -->
+<!-- metadata: b8x6nlj0b9 -->
+<!-- metadata: d70dephwrz -->
+<!-- metadata: kyc4esm339 -->
+<!-- metadata: zm7ld01frc -->
+<!-- metadata: qtkvk5t506 -->
+<!-- metadata: c33y9zmyjh -->
+<!-- metadata: 5sm7aiv3j7 -->
 1. Clone the repository and navigate to the project directory:
    ```bash
    git clone <repository-url>
