@@ -34,7 +34,6 @@ The application interface is built around three core pillars:
 3. **The Refinement (`RefinementPanel`)**: The AI interface where users control parametric draping via sliders or natural text prompts.
 
 ## Getting Started
-<!-- metadata: vpz0au2l8i -->
 
 ### Prerequisites
 
@@ -45,6 +44,7 @@ The application interface is built around three core pillars:
 
 1. Clone the repository and navigate to the project directory:
    ```bash
+   git clone <repository-url>
    cd stylemirror
    ```
 
