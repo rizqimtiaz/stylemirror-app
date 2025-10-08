@@ -35,6 +35,14 @@ The application interface is built around three core pillars:
 
 ## Getting Started
 
+<!-- metadata: wnrydeswwy -->
+<!-- metadata: cjell8rk9i -->
+<!-- metadata: 5veqsnfdww -->
+<!-- metadata: mlg43cv2h7 -->
+<!-- metadata: 51fwxwzfkc -->
+<!-- metadata: 80kolg9q7t -->
+<!-- metadata: z7u61y8uqx -->
+<!-- metadata: ykicdf6qyi -->
 ### Prerequisites
 
 - Node.js (v18+ recommended)
@@ -49,7 +57,6 @@ The application interface is built around three core pillars:
    ```
 
 2. Install dependencies:
-   ```bash
    npm install
    # or
    pnpm install
