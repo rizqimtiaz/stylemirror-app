@@ -45,13 +45,8 @@ The application interface is built around three core pillars:
 1. Clone the repository and navigate to the project directory:
    ```bash
    git clone <repository-url>
+   cd stylemirror
    ```
-<!-- metadata: 6jf5a0yn6i -->
-<!-- metadata: mt3bp0kypj -->
-<!-- metadata: bbc0mqsns1 -->
-<!-- metadata: 3bn7zpz3hr -->
-<!-- metadata: fo8b24i63x -->
-<!-- metadata: l9entkx7xx -->
 
 2. Install dependencies:
    ```bash
