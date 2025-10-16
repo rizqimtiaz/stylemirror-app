@@ -19,6 +19,14 @@ StyleMirror is an application that creates a high-fidelity **Digital Twin** of t
   
   The AI dynamically alters the garment's geometry on the segmented twin while strictly preserving the fabric texture and original pattern of the actual product.
 
+<!-- metadata: s55k24be5f -->
+<!-- metadata: x1khs7tlrb -->
+<!-- metadata: rfpscgtk3u -->
+<!-- metadata: 4l8tnotbpz -->
+<!-- metadata: j3ukzqrkqa -->
+<!-- metadata: dd3nqkq79w -->
+<!-- metadata: xmevbiu2ay -->
+<!-- metadata: bofh9ut82m -->
 ## Tech Stack
 
 - **Framework**: Next.js 16 (App Router) & React 19
@@ -52,10 +60,6 @@ The application interface is built around three core pillars:
    ```bash
    npm install
    # or
-   pnpm install
-   ```
-
-3. Start the development server:
    ```bash
    npm run dev
    # or
