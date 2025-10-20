@@ -1,12 +1,6 @@
 # StyleMirror: The Adaptive Digital Wardrobe
 
 The "fitting room" is still broken. Consumers buy multiple sizes and return most of them, creating a logistics nightmare for brands and an environmental disaster. Existing AI solutions often hallucinate (making a dress look like an unrecognizable blob) or lose the specific pattern details and textures of the actual product.
-<!-- metadata: qg3ayd676f -->
-<!-- metadata: c1uejackv9 -->
-<!-- metadata: ubfw20ers5 -->
-<!-- metadata: 2a153lfd1g -->
-<!-- metadata: 9ol3qpr36s -->
-<!-- metadata: yjdskeqm8n -->
 
 **StyleMirror** bridges this market gap as a high-fidelity, parametrically adaptive AI stylist that truly knows your body.
 
@@ -62,6 +56,7 @@ The application interface is built around three core pillars:
    ```
 
 3. Start the development server:
+   ```bash
    npm run dev
    # or
    pnpm dev
