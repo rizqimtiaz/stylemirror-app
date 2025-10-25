@@ -6,6 +6,10 @@ The "fitting room" is still broken. Consumers buy multiple sizes and return most
 
 ## The Solution
 
+StyleMirror is an application that creates a high-fidelity **Digital Twin** of the user and uses text-guided diffusion inpainting to parametrically drape clothing. It goes beyond simple 2D overlays by understanding fabric geometry, preserving original textures, and allowing real-time refinement through natural language.
+
+## Key Features
+
 - **Digital Twin Generation**: Spin up a highly accurate representation of your body. Users take simple front and side photos while wearing form-fitting clothes. We leverage a Segment-Anything model to cleanly extract the user from the background.
 - **Product Ontology Mapping**: Instead of generating a generic "dress," StyleMirror maintains a strict ontology (database) of real products, ensuring the exact garment you see is what you are trying on.
 - **Parametric Draping (The Core Complexity)**: The defining feature of StyleMirror. Users can interact with the AI using plain language:
@@ -41,14 +45,6 @@ The application interface is built around three core pillars:
 1. Clone the repository and navigate to the project directory:
    ```bash
    git clone <repository-url>
-<!-- metadata: stl7qn6jg5 -->
-<!-- metadata: rzmjdccu5y -->
-<!-- metadata: rtxu3c0ags -->
-<!-- metadata: cfztfmf5qo -->
-<!-- metadata: 2s9x8w0bg9 -->
-<!-- metadata: zyytaejxrb -->
-<!-- metadata: w3yurut0ul -->
-<!-- metadata: r0t4osd0uf -->
    cd stylemirror
    ```
 
