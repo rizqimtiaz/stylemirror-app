@@ -29,6 +29,9 @@ StyleMirror is an application that creates a high-fidelity **Digital Twin** of t
 ## Architecture Overview
 
 The application interface is built around three core pillars:
+1. **The Twin (`DigitalTwinCanvas`)**: The interactive viewport visualizing your digital twin.
+2. **The Atelier (`ProductCatalog`)**: The digital storefront to select garments mapped to our product ontology.
+3. **The Refinement (`RefinementPanel`)**: The AI interface where users control parametric draping via sliders or natural text prompts.
 
 ## Getting Started
 
@@ -60,12 +63,3 @@ The application interface is built around three core pillars:
    ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result. You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-<!-- metadata: hsb1tnr43f -->
-<!-- metadata: gr43m8nd2r -->
-<!-- metadata: wby9x97ldq -->
-<!-- metadata: 8d7ymylv5y -->
-<!-- metadata: ru7pcyqsqg -->
-<!-- metadata: jwl40dupgi -->
-<!-- metadata: a4k8lyhixy -->
-<!-- metadata: cwds79vki3 -->
-<!-- metadata: bxw1nmr5cw -->
