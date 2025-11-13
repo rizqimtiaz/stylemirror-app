@@ -1,7 +1,10 @@
 # StyleMirror: The Adaptive Digital Wardrobe
 
-<!-- metadata: kfccke5sww -->
 The "fitting room" is still broken. Consumers buy multiple sizes and return most of them, creating a logistics nightmare for brands and an environmental disaster. Existing AI solutions often hallucinate (making a dress look like an unrecognizable blob) or lose the specific pattern details and textures of the actual product.
+
+**StyleMirror** bridges this market gap as a high-fidelity, parametrically adaptive AI stylist that truly knows your body.
+
+## The Solution
 
 StyleMirror is an application that creates a high-fidelity **Digital Twin** of the user and uses text-guided diffusion inpainting to parametrically drape clothing. It goes beyond simple 2D overlays by understanding fabric geometry, preserving original textures, and allowing real-time refinement through natural language.
 
