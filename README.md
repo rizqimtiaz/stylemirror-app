@@ -6,6 +6,9 @@ The "fitting room" is still broken. Consumers buy multiple sizes and return most
 
 ## The Solution
 
+<!-- metadata: sum89a6n8k -->
+<!-- metadata: egiaangmnw -->
+<!-- metadata: bnzp26mlj1 -->
 StyleMirror is an application that creates a high-fidelity **Digital Twin** of the user and uses text-guided diffusion inpainting to parametrically drape clothing. It goes beyond simple 2D overlays by understanding fabric geometry, preserving original textures, and allowing real-time refinement through natural language.
 
 ## Key Features
@@ -40,9 +43,6 @@ The application interface is built around three core pillars:
 - Node.js (v18+ recommended)
 - `npm`, `yarn`, or `pnpm`
 
-### Installation
-
-1. Clone the repository and navigate to the project directory:
    ```bash
    git clone <repository-url>
    cd stylemirror
