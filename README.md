@@ -10,10 +10,6 @@ StyleMirror is an application that creates a high-fidelity **Digital Twin** of t
 
 ## Key Features
 
-<!-- metadata: 2zd2a5gclk -->
-<!-- metadata: 1ufiaar3yf -->
-<!-- metadata: dxg9id7sn0 -->
-<!-- metadata: 4owvpplr9t -->
 - **Digital Twin Generation**: Spin up a highly accurate representation of your body. Users take simple front and side photos while wearing form-fitting clothes. We leverage a Segment-Anything model to cleanly extract the user from the background.
 - **Product Ontology Mapping**: Instead of generating a generic "dress," StyleMirror maintains a strict ontology (database) of real products, ensuring the exact garment you see is what you are trying on.
 - **Parametric Draping (The Core Complexity)**: The defining feature of StyleMirror. Users can interact with the AI using plain language:
@@ -31,6 +27,8 @@ StyleMirror is an application that creates a high-fidelity **Digital Twin** of t
 - **AI Integration**: Vercel AI SDK (`ai`, `@ai-sdk/react`) for streaming natural language refinements
 
 ## Architecture Overview
+
+The application interface is built around three core pillars:
 1. **The Twin (`DigitalTwinCanvas`)**: The interactive viewport visualizing your digital twin.
 2. **The Atelier (`ProductCatalog`)**: The digital storefront to select garments mapped to our product ontology.
 3. **The Refinement (`RefinementPanel`)**: The AI interface where users control parametric draping via sliders or natural text prompts.
