@@ -11,6 +11,10 @@ StyleMirror is an application that creates a high-fidelity **Digital Twin** of t
 ## Key Features
 
 - **Digital Twin Generation**: Spin up a highly accurate representation of your body. Users take simple front and side photos while wearing form-fitting clothes. We leverage a Segment-Anything model to cleanly extract the user from the background.
+- **Product Ontology Mapping**: Instead of generating a generic "dress," StyleMirror maintains a strict ontology (database) of real products, ensuring the exact garment you see is what you are trying on.
+- **Parametric Draping (The Core Complexity)**: The defining feature of StyleMirror. Users can interact with the AI using plain language:
+  - *"Make this blazer slightly tailored."*
+  - *"Show me this dress, but as a mini-length."*
   - *"Tuck in the shirt."*
   
   The AI dynamically alters the garment's geometry on the segmented twin while strictly preserving the fabric texture and original pattern of the actual product.
@@ -24,12 +28,6 @@ StyleMirror is an application that creates a high-fidelity **Digital Twin** of t
 
 ## Architecture Overview
 
-<!-- metadata: 1cfkaqgt2u -->
-<!-- metadata: bdebn0hukp -->
-<!-- metadata: fmwhbm4g2y -->
-<!-- metadata: tg00h4q0d2 -->
-<!-- metadata: 73pic0di9p -->
-<!-- metadata: hxwwvhw1q0 -->
 The application interface is built around three core pillars:
 1. **The Twin (`DigitalTwinCanvas`)**: The interactive viewport visualizing your digital twin.
 2. **The Atelier (`ProductCatalog`)**: The digital storefront to select garments mapped to our product ontology.
