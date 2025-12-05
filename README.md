@@ -48,6 +48,11 @@ The application interface is built around three core pillars:
    cd stylemirror
    ```
 
+<!-- metadata: izd9hccbg8 -->
+<!-- metadata: arupyzo78w -->
+<!-- metadata: j5nvpvbq1e -->
+<!-- metadata: iqmq3cfllw -->
+<!-- metadata: oz2asyspeu -->
 2. Install dependencies:
    ```bash
    npm install
@@ -57,7 +62,6 @@ The application interface is built around three core pillars:
 
 3. Start the development server:
    ```bash
-   npm run dev
    # or
    pnpm dev
    ```
