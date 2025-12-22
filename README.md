@@ -1,4 +1,3 @@
-# StyleMirror: The Adaptive Digital Wardrobe
 
 The "fitting room" is still broken. Consumers buy multiple sizes and return most of them, creating a logistics nightmare for brands and an environmental disaster. Existing AI solutions often hallucinate (making a dress look like an unrecognizable blob) or lose the specific pattern details and textures of the actual product.
 
@@ -47,6 +46,10 @@ The application interface is built around three core pillars:
    git clone <repository-url>
    cd stylemirror
    ```
+<!-- metadata: 2flu49csdn -->
+<!-- metadata: xmqxuaelmq -->
+<!-- metadata: 3rw1n4ld39 -->
+<!-- metadata: ezctzlwf37 -->
 
 2. Install dependencies:
    ```bash
