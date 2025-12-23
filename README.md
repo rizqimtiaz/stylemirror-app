@@ -33,6 +33,16 @@ The application interface is built around three core pillars:
 2. **The Atelier (`ProductCatalog`)**: The digital storefront to select garments mapped to our product ontology.
 3. **The Refinement (`RefinementPanel`)**: The AI interface where users control parametric draping via sliders or natural text prompts.
 
+<!-- metadata: 05ncgzm3u7 -->
+<!-- metadata: 77q4q3wdzt -->
+<!-- metadata: yj3aw6od3p -->
+<!-- metadata: xvaiw970op -->
+<!-- metadata: 37ehw0gsbm -->
+<!-- metadata: znx7kf2zkb -->
+<!-- metadata: tmcfbh955m -->
+<!-- metadata: w8sewwl4l9 -->
+<!-- metadata: 6a2by195l0 -->
+<!-- metadata: xdeybzlhhc -->
 ## Getting Started
 
 ### Prerequisites
@@ -58,8 +68,5 @@ The application interface is built around three core pillars:
 3. Start the development server:
    ```bash
    npm run dev
-   # or
-   pnpm dev
-   ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result. You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
