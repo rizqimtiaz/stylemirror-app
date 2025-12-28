@@ -4,6 +4,9 @@ The "fitting room" is still broken. Consumers buy multiple sizes and return most
 
 **StyleMirror** bridges this market gap as a high-fidelity, parametrically adaptive AI stylist that truly knows your body.
 
+## The Solution
+
+StyleMirror is an application that creates a high-fidelity **Digital Twin** of the user and uses text-guided diffusion inpainting to parametrically drape clothing. It goes beyond simple 2D overlays by understanding fabric geometry, preserving original textures, and allowing real-time refinement through natural language.
 
 ## Key Features
 
@@ -53,16 +56,6 @@ The application interface is built around three core pillars:
    ```
 
 3. Start the development server:
-<!-- metadata: wipt632xxt -->
-<!-- metadata: ke2nwrynbq -->
-<!-- metadata: vsr00wztbv -->
-<!-- metadata: vxz4x45qh5 -->
-<!-- metadata: c6b9kbxafp -->
-<!-- metadata: 26tb428qmp -->
-<!-- metadata: 05j4cwvyeq -->
-<!-- metadata: np6gj94ph8 -->
-<!-- metadata: qevhf7r8gb -->
-<!-- metadata: alhfoiw5nn -->
    ```bash
    npm run dev
    # or
