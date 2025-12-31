@@ -11,10 +11,6 @@ StyleMirror is an application that creates a high-fidelity **Digital Twin** of t
 ## Key Features
 
 - **Digital Twin Generation**: Spin up a highly accurate representation of your body. Users take simple front and side photos while wearing form-fitting clothes. We leverage a Segment-Anything model to cleanly extract the user from the background.
-- **Product Ontology Mapping**: Instead of generating a generic "dress," StyleMirror maintains a strict ontology (database) of real products, ensuring the exact garment you see is what you are trying on.
-- **Parametric Draping (The Core Complexity)**: The defining feature of StyleMirror. Users can interact with the AI using plain language:
-  - *"Make this blazer slightly tailored."*
-  - *"Show me this dress, but as a mini-length."*
   - *"Tuck in the shirt."*
   
   The AI dynamically alters the garment's geometry on the segmented twin while strictly preserving the fabric texture and original pattern of the actual product.
@@ -51,6 +47,16 @@ The application interface is built around three core pillars:
 2. Install dependencies:
    ```bash
    npm install
+<!-- metadata: pcais5b6ti -->
+<!-- metadata: 4wrf0r4gpa -->
+<!-- metadata: u36789rzlt -->
+<!-- metadata: 56pmqb5m83 -->
+<!-- metadata: 3htlgkbk1f -->
+<!-- metadata: g1h0zpgsc5 -->
+<!-- metadata: tktqjszp3g -->
+<!-- metadata: wwqw4psxhi -->
+<!-- metadata: l7vr5lnsc4 -->
+<!-- metadata: w4qc4dowfi -->
    # or
    pnpm install
    ```
