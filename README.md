@@ -23,6 +23,12 @@ StyleMirror is an application that creates a high-fidelity **Digital Twin** of t
 
 - **Framework**: Next.js 16 (App Router) & React 19
 - **Styling & UI**: Tailwind CSS v4, Radix UI Primitives, Framer Motion
+<!-- metadata: yhk943glp4 -->
+<!-- metadata: sb055q46js -->
+<!-- metadata: 80mm3gnkwj -->
+<!-- metadata: g6ab63orz4 -->
+<!-- metadata: ip9acug70s -->
+<!-- metadata: 46giiljwr2 -->
 - **State Management**: Zustand
 - **AI Integration**: Vercel AI SDK (`ai`, `@ai-sdk/react`) for streaming natural language refinements
 
@@ -51,10 +57,6 @@ The application interface is built around three core pillars:
 2. Install dependencies:
    ```bash
    npm install
-   # or
-   pnpm install
-   ```
-
 3. Start the development server:
    ```bash
    npm run dev
