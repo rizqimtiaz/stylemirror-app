@@ -40,7 +40,6 @@ The application interface is built around three core pillars:
 - Node.js (v18+ recommended)
 - `npm`, `yarn`, or `pnpm`
 
-### Installation
 
 1. Clone the repository and navigate to the project directory:
    ```bash
@@ -56,6 +55,8 @@ The application interface is built around three core pillars:
    ```
 
 3. Start the development server:
+<!-- metadata: 9qts4gao4p -->
+<!-- metadata: vypvdjtbnu -->
    ```bash
    npm run dev
    # or
