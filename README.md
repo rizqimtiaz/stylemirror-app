@@ -1,35 +1,65 @@
-# stylemirror-app
+# StyleMirror: The Adaptive Digital Wardrobe
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [v0](https://v0.app).
+The "fitting room" is still broken. Consumers buy multiple sizes and return most of them, creating a logistics nightmare for brands and an environmental disaster. Existing AI solutions often hallucinate (making a dress look like an unrecognizable blob) or lose the specific pattern details and textures of the actual product.
 
-## Built with v0
+**StyleMirror** bridges this market gap as a high-fidelity, parametrically adaptive AI stylist that truly knows your body.
 
-This repository is linked to a [v0](https://v0.app) project. You can continue developing by visiting the link below -- start new chats to make changes, and v0 will push commits directly to this repo. Every merge to `main` will automatically deploy.
+## The Solution
 
-[Continue working on v0 →](https://v0.app/chat/projects/prj_l2aA22YN246TRpG89VNTHkOGqyGl)
+StyleMirror is an application that creates a high-fidelity **Digital Twin** of the user and uses text-guided diffusion inpainting to parametrically drape clothing. It goes beyond simple 2D overlays by understanding fabric geometry, preserving original textures, and allowing real-time refinement through natural language.
+
+## Key Features
+
+- **Digital Twin Generation**: Spin up a highly accurate representation of your body. Users take simple front and side photos while wearing form-fitting clothes. We leverage a Segment-Anything model to cleanly extract the user from the background.
+- **Product Ontology Mapping**: Instead of generating a generic "dress," StyleMirror maintains a strict ontology (database) of real products, ensuring the exact garment you see is what you are trying on.
+- **Parametric Draping (The Core Complexity)**: The defining feature of StyleMirror. Users can interact with the AI using plain language:
+  - *"Make this blazer slightly tailored."*
+  - *"Show me this dress, but as a mini-length."*
+  - *"Tuck in the shirt."*
+  
+  The AI dynamically alters the garment's geometry on the segmented twin while strictly preserving the fabric texture and original pattern of the actual product.
+
+## Tech Stack
+
+- **Framework**: Next.js 16 (App Router) & React 19
+- **Styling & UI**: Tailwind CSS v4, Radix UI Primitives, Framer Motion
+- **State Management**: Zustand
+- **AI Integration**: Vercel AI SDK (`ai`, `@ai-sdk/react`) for streaming natural language refinements
+
+## Architecture Overview
+
+The application interface is built around three core pillars:
+1. **The Twin (`DigitalTwinCanvas`)**: The interactive viewport visualizing your digital twin.
+2. **The Atelier (`ProductCatalog`)**: The digital storefront to select garments mapped to our product ontology.
+3. **The Refinement (`RefinementPanel`)**: The AI interface where users control parametric draping via sliders or natural text prompts.
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+- Node.js (v18+ recommended)
+- `npm`, `yarn`, or `pnpm`
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Installation
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Clone the repository and navigate to the project directory:
+   ```bash
+   git clone <repository-url>
+   cd stylemirror
+   ```
 
-## Learn More
+2. Install dependencies:
+   ```bash
+   npm install
+   # or
+   pnpm install
+   ```
 
-To learn more, take a look at the following resources:
+3. Start the development server:
+   ```bash
+   npm run dev
+   # or
+   pnpm dev
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-- [v0 Documentation](https://v0.app/docs) - learn about v0 and how to use it.
-
-<a href="https://v0.app/chat/api/kiro/clone/rizqimtiaz/stylemirror-app" alt="Open in Kiro"><img src="https://pdgvvgmkdvyeydso.public.blob.vercel-storage.com/open%20in%20kiro.svg?sanitize=true" /></a>
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result. You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
